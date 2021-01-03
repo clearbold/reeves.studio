@@ -8,4 +8,4 @@ Mark has supported website &amp; marketing platforms for the Campbell Soup Compa
 
 In recent years he&rsquo;s partnered with Higher Ed teams to design and build web apps for citizen science projects and the digital humanities, supported customized online ordering for a high-end catering firm, and launched multiple websites for clients in the Healthcare and Biosciences&nbsp;industries.
 
-Mark grew up in the Hudson Valley and Thousand Islands regions of New York State. He earned a B.S. in Telecommunications Management at Ithaca College, with a minor in Computer Science. He began his career in Boston, working in digital marketing and software development. In 2016 Mark and his family moved to Vermont. He&rsquo;s worked with clients remotely since&nbsp;2007.
+Mark grew up in the Hudson Valley and Thousand Islands regions of New York State. He earned a B.S. in Telecommunications Management at Ithaca College, with a minor in Computer Science. He began his career in Boston, working in digital marketing and software development. In 2016 Mark and his family moved to Vermont. Mark has worked with clients remotely since&nbsp;2007.
