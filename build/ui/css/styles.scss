@@ -1,0 +1,158 @@
+@charset "UTF-8";
+
+@import "fonts";
+@import "mixins";
+@import "vars";
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    -webkit-text-size-adjust: none;
+    zoom: 1;
+}
+
+section, main, nav, header, footer, article {
+    display: block;
+}
+
+body {
+    -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+
+    font-size: $base-font-size;
+
+    & > a[href='#main'] {
+        @include accessibility;
+    }
+
+    background-color: rgb(6, 16, 23);
+    background-color: rgb(220, 220, 220);
+    color: rgba(255, 255, 255, .9);
+    font-family: regular, sans-serif;
+    line-height: 1.75em;
+}
+
+a {
+    text-decoration-thickness: from-font;
+    text-underline-offset: 0.1em;
+}
+
+.outer {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    @media all and (min-width: $breakpoint-min) {
+        @include remify('padding-top', 1px);
+    }
+}
+
+main {
+    background-color: rgb(18, 46, 67);
+    flex-grow: 1;
+    .img-mark {
+        background-color: rgb(180, 198, 210);
+        @include remify('padding-top', 30px);
+        @include remify('padding-bottom', 30px);
+        @include remify('padding-left', 20px);
+        svg {
+            display: block;
+            height: auto; // insufficient for IE11
+            @include remify('width', 100px);
+            path {
+                fill: rgb(18, 46, 67);
+            }
+        }
+    }
+    .content-mark {
+        @include remify('padding-top', 24px);
+        @include remify('padding-right', 10px);
+        @include remify('padding-bottom', 20px);
+        @include remify('padding-left', 10px);
+        .content-well {
+            & > div > div:not(:first-of-type) {
+                @include remify('margin-top', 20px);
+            }
+            .content {
+                h1 {
+                    font-family: semibold, sans-serif;
+                    @include remify('font-size', 20px);
+                    font-weight: normal;
+                    @include remify('margin-bottom', 20px);
+                    @include accessibility();
+                }
+                & > p:first-of-type {
+                    font-family: semibold, sans-serif;
+                    @include remify('font-size', 20px);
+                }
+            }
+            p:not(:first-of-type) {
+                @include remify('margin-top', 20px);
+            }
+            a {
+                color: rgb(235, 220, 152);
+            }
+            footer {
+                @include remify('margin-top', 60px);
+            }
+        }
+    }
+    @media all and (min-width: $breakpoint-smaller-min) {
+        .content-mark {
+            @include remify('padding-top', 24px);
+            @include remify('padding-right', 20px);
+            @include remify('padding-bottom', 28px);
+            @include remify('padding-left', 30px);
+        }
+    }
+    @media all and (min-width: $breakpoint-min) {
+        align-items: stretch;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        padding-top: 0;
+        padding-right: 0;
+        padding-bottom: 0;
+        padding-left: 0;
+        .img-mark {
+            background-color: rgb(28, 71, 103);
+            background-color: rgb(180, 198, 210);
+            flex-basis: 1;
+            @include remify('padding-top', 30px);
+            @include remify('padding-right', 40px);
+            @include remify('padding-left', 30px);
+        }
+        .content-mark {
+            flex-basis: auto;
+            flex-grow: 1;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            @include remify('padding-top', 34px);
+            @include remify('padding-right', 20px);
+            @include remify('padding-bottom', 36px);
+            @include remify('padding-left', 60px);
+            transform: translateX(-3%);
+            .content-well {
+                @include remify('max-width', 700px);
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                & > div {
+                    flex-basis: 1;
+                    flex-grow: 1;
+                }
+            }
+        }
+    }
+    @media all and (min-width: $breakpoint-bigger) {
+
+    }
+    @media all and (min-width: $breakpoint-biggest) {
+        .content-mark {
+
+        }
+    }
+}
