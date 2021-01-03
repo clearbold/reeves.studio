@@ -118,8 +118,6 @@ main {
         padding-bottom: 0;
         padding-left: 0;
         .img-mark {
-            background-color: rgb(28, 71, 103);
-            background-color: rgb(180, 198, 210);
             flex-basis: 1;
             @include remify('padding-top', 30px);
             @include remify('padding-right', 40px);
