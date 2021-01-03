@@ -93,6 +93,7 @@ main {
             }
             a {
                 color: rgb(235, 220, 152);
+                color: rgb(245, 226, 142);
             }
             footer {
                 @include remify('margin-top', 60px);
