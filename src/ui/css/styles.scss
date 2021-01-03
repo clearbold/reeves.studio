@@ -28,9 +28,9 @@ body {
         @include accessibility;
     }
 
-    background-color: rgb(6, 16, 23);
+    // background-color: rgb(6, 16, 23);
     background-color: rgb(220, 220, 220);
-    color: rgba(255, 255, 255, .9);
+    color: rgb(255, 255, 255);
     font-family: regular, sans-serif;
     line-height: 1.75em;
 }
