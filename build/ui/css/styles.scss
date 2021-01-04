@@ -56,6 +56,8 @@ main {
         background-color: rgb(233, 246, 252);
         // background-color: rgb(229, 248, 255);
         // background-color: rgb(225, 247, 255);
+        background-color: rgb(238, 246, 252);
+        // background-color: #efefef;
         @include remify('padding-top', 30px);
         @include remify('padding-bottom', 30px);
         @include remify('padding-left', 20px);
