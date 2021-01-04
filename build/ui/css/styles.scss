@@ -54,6 +54,8 @@ main {
     flex-grow: 1;
     .img-mark {
         background-color: rgb(188, 213, 230);
+        background-color: rgb(233, 246, 251);
+        // background-color: rgb(184, 223, 239);
         @include remify('padding-top', 30px);
         @include remify('padding-bottom', 30px);
         @include remify('padding-left', 20px);
