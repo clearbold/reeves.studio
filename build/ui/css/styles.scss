@@ -28,7 +28,6 @@ body {
         @include accessibility;
     }
 
-    // background-color: rgb(6, 16, 23);
     background-color: rgb(220, 220, 220);
     color: rgb(255, 255, 255);
     font-family: regular, sans-serif;
@@ -53,9 +52,10 @@ main {
     background-color: rgb(18, 46, 67);
     flex-grow: 1;
     .img-mark {
-        background-color: rgb(188, 213, 230);
+        // background-color: rgb(188, 213, 230);
         background-color: rgb(233, 246, 251);
-        // background-color: rgb(184, 223, 239);
+        // background-color: rgb(229, 248, 255);
+        // background-color: rgb(225, 247, 255);
         @include remify('padding-top', 30px);
         @include remify('padding-bottom', 30px);
         @include remify('padding-left', 20px);
@@ -94,7 +94,6 @@ main {
                 @include remify('margin-top', 20px);
             }
             a {
-                color: rgb(235, 220, 152);
                 color: rgb(245, 226, 142);
             }
             footer {
