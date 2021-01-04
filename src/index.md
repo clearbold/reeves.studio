@@ -6,7 +6,7 @@ Mark Reeves is a business owner, consultant, and web engineer with more than 20 
 
 Mark has supported website &amp; marketing platforms for the Campbell Soup Company, Lexmark, The New York Stock Exchange, Fidelity Investments, ESPN, MINI USA, Cadillac, and&nbsp;SAP.
 
-In recent years he&rsquo;s partnered with Higher Ed teams to design and build web apps for citizen science projects and the digital humanities, built a customized online ordering system for a high-end catering firm, and launched multiple websites for clients in the Healthcare and Biosciences&nbsp;industries.
+In recent years he&rsquo;s partnered with Higher Ed teams to design and build web apps for citizen science projects and the digital humanities, built a customized online ordering system for a high-end catering firm, synchronized websites and <abbr title="Customer Relationship Management">CRM</abbr> platforms via <abbr title="Application Programming Interface">API</abbr> integrations, and launched multiple websites for clients in the Healthcare and Biosciences&nbsp;industries.
 
 Today Mark is working to make websites and web applications more sustainable for the planet and the people &amp; organizations managing&nbsp;them, and more accessible to the people who use&nbsp;them.
 
