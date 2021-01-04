@@ -53,7 +53,7 @@ main {
     flex-grow: 1;
     .img-mark {
         // background-color: rgb(188, 213, 230);
-        background-color: rgb(233, 246, 252);
+        // background-color: rgb(233, 246, 252);
         // background-color: rgb(229, 248, 255);
         // background-color: rgb(225, 247, 255);
         background-color: rgb(238, 246, 252);
@@ -135,8 +135,8 @@ main {
             @include remify('padding-top', 34px);
             @include remify('padding-right', 20px);
             @include remify('padding-bottom', 36px);
-            @include remify('padding-left', 60px);
-            transform: translateX(-3%);
+            @include remify('padding-left', 90px);
+            transform: translateX(-6%);
             .content-well {
                 @include remify('max-width', 700px);
                 width: 100%;
