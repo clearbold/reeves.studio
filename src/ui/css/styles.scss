@@ -54,7 +54,7 @@ abbr {
     }
 }
 
-main {
+.inner {
     background-color: rgb(18, 46, 67);
     flex-grow: 1;
     .img-mark {
@@ -82,7 +82,7 @@ main {
         @include remify('padding-bottom', 20px);
         @include remify('padding-left', 10px);
         .content-well {
-            & > div > div:not(:first-of-type) {
+            main {
                 @include remify('margin-top', 20px);
             }
             .content {
