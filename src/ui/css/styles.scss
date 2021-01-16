@@ -29,7 +29,8 @@ body {
     }
 
     background-color: rgb(220, 220, 220);
-    color: rgb(255, 255, 255);
+    // color: rgb(255, 255, 255);
+    color: rgb(18, 46, 67);
     font-family: regular, sans-serif;
     line-height: 1.75em;
 }
@@ -41,8 +42,6 @@ a {
 
 abbr {
     text-decoration: none;
-    // text-decoration: dotted underline rgba(255, 255, 255, .5) 1px;
-    // text-underline-offset: 2px;
 }
 
 .outer {
@@ -56,14 +55,11 @@ abbr {
 
 .inner {
     background-color: rgb(18, 46, 67);
+    background-color: rgb(238, 246, 252);
+    background-color: white;
     flex-grow: 1;
     .img-mark {
-        // background-color: rgb(188, 213, 230);
-        // background-color: rgb(233, 246, 252);
-        // background-color: rgb(229, 248, 255);
-        // background-color: rgb(225, 247, 255);
         background-color: rgb(238, 246, 252);
-        // background-color: #efefef;
         @include remify('padding-top', 30px);
         @include remify('padding-bottom', 30px);
         @include remify('padding-left', 20px);
@@ -103,6 +99,7 @@ abbr {
             }
             a {
                 color: rgb(245, 226, 142);
+                color: #d95e1f;
             }
             footer {
                 @include remify('margin-top', 60px);
