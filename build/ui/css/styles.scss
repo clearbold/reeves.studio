@@ -59,8 +59,8 @@ abbr {
 }
 
 .inner {
-    background-color: rgb(18, 46, 67);
-    background-color: rgb(238, 246, 252);
+    // background-color: rgb(18, 46, 67);
+    // background-color: rgb(238, 246, 252);
     background-color: white;
     flex-grow: 1;
     .img-mark {
@@ -103,8 +103,9 @@ abbr {
                 @include remify('margin-top', 20px);
             }
             a {
-                color: rgb(245, 226, 142);
-                color: #d95e1f;
+                // color: rgb(245, 226, 142);
+                // color: #d95e1f;
+                color: rgb(194, 70, 0);
             }
             footer {
                 @include remify('margin-top', 60px);
@@ -163,6 +164,31 @@ abbr {
     @media all and (min-width: $breakpoint-biggest) {
         .content-mark {
 
+        }
+    }
+}
+
+footer {
+    nav {
+        ul {
+            list-style: none;
+            margin-bottom: 0;
+            padding: 0;
+            li {
+                line-height: 1.75em;
+                margin-bottom: 0;
+                a {
+                    align-items: center;
+                    display: flex;
+                    justify-content: flex-start;
+                    text-indent: -1px;
+                    svg {
+                        @include remify('height', 22px);
+                        @include remify('margin-right', 4px);
+                        @include remify('width', 22px);
+                    }
+                }
+            }
         }
     }
 }
