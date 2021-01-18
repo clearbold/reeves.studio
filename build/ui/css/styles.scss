@@ -171,21 +171,31 @@ abbr {
 footer {
     nav {
         ul {
+            @include cf();
             list-style: none;
             margin-bottom: 0;
             padding: 0;
             li {
+                display: inline-flex;
+                float: left;
                 line-height: 1.75em;
-                margin-bottom: 0;
+                &:not(:last-of-type) {
+                    @include remify('margin-right', 8px);
+                    &:after {
+                        content: ', ';
+                    }
+                }
                 a {
                     align-items: center;
-                    display: flex;
+                    display: inline-flex;
                     justify-content: flex-start;
                     text-indent: -1px;
                     svg {
-                        @include remify('height', 22px);
+                        @include remify('height', 16px);
                         @include remify('margin-right', 4px);
-                        @include remify('width', 22px);
+                        position: relative;
+                        top: 1px;
+                        @include remify('width', 16px);
                     }
                 }
             }
