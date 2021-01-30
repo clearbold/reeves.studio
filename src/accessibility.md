@@ -8,4 +8,4 @@ As part of that commitment, Mark Reeves Studio follows the Web Content Accessibi
 
 Mark continually evaluates this website against the WCAG criteria to remediate any issues and ensure a user-friendly experience for everyone. Testing of this website includes using tools to check for color contrast, content readability, screenreader support, and keyboard-only&nbsp;navigation.
 
-Please contact <a href="mailto:studio@heymarkreeves.com">studio@heymarkreeves.com</a> with questions or if you&rsquo;re experiencing difficulty using this&nbsp;website.
+Please email <a href="mailto:studio@heymarkreeves.com">studio@heymarkreeves.com</a> with questions or if you&rsquo;re experiencing difficulty using this&nbsp;website.
