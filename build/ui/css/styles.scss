@@ -58,6 +58,23 @@ abbr {
     }
 }
 
+.home {
+    .inner {
+        .content-mark {
+            .content-well {
+                .content {
+                    h1 {
+                        @include accessibility();
+                    }
+                    & > p:first-of-type {
+                        font-family: semibold, sans-serif;
+                        @include remify('font-size', 20px);
+                    }
+                }
+            }
+        }
+    }
+}
 .inner {
     // background-color: rgb(18, 46, 67);
     // background-color: rgb(238, 246, 252);
@@ -92,12 +109,11 @@ abbr {
                     @include remify('font-size', 20px);
                     font-weight: normal;
                     @include remify('margin-bottom', 20px);
-                    @include accessibility();
                 }
-                & > p:first-of-type {
-                    font-family: semibold, sans-serif;
-                    @include remify('font-size', 20px);
-                }
+                // & > p:first-of-type {
+                //     font-family: semibold, sans-serif;
+                //     @include remify('font-size', 20px);
+                // }
             }
             p:not(:first-of-type) {
                 @include remify('margin-top', 20px);
