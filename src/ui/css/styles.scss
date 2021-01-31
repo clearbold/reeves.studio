@@ -85,6 +85,8 @@ abbr {
         @include remify('padding-top', 30px);
         @include remify('padding-bottom', 30px);
         @include remify('padding-left', 20px);
+        position: relative;
+        z-index: 9;
         svg {
             display: block;
             height: auto; // insufficient for IE11
