@@ -13,3 +13,11 @@
     font-weight: normal;
     font-style: normal;
 }
+
+@font-face {
+    font-family: 'italic';
+    src: url('../fonts/PublicSans-Italic.woff2') format('woff2'),
+         url('../fonts/PublicSans-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
