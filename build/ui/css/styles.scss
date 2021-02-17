@@ -262,5 +262,19 @@ footer {
                 }
             }
         }
+        &.site-nav {
+            ul {
+                li {
+                    &:not(:last-of-type) {
+                        margin-right: 0;
+                        &:after {
+                            content: '•';
+                            @include remify('margin-right', 5px);
+                            @include remify('margin-left', 5px);
+                        }
+                    }
+                }
+            }
+        }
     }
 }
