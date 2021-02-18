@@ -95,9 +95,17 @@ abbr {
         svg {
             display: block;
             height: auto; // insufficient for IE11
+            transition: .2s all;
             @include remify('width', 100px);
             path {
                 fill: rgb(18, 46, 67);
+            }
+        }
+        & > a {
+            &:hover {
+                svg {
+                    transform: scale(1.05);
+                }
             }
         }
     }
