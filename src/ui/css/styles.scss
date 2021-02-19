@@ -268,6 +268,15 @@ footer {
                         @include remify('width', 16px);
                     }
                 }
+                &.heymarkreeves {
+                    a {
+                        svg {
+                            @include remify('margin-right', 2px);
+                            // top: 0;
+                            @include remify('width', 18.793650794px);
+                        }
+                    }
+                }
             }
         }
         &.site-nav {
