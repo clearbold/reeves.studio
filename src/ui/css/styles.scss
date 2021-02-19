@@ -271,9 +271,9 @@ footer {
                 &.heymarkreeves {
                     a {
                         svg {
-                            @include remify('margin-right', 2px);
-                            // top: 0;
-                            @include remify('width', 18.793650794px);
+                            transform: translateX(1px);
+                            @include remify('margin-right', 5px);
+                            @include remify('width', 13.621621622px);
                         }
                     }
                 }
