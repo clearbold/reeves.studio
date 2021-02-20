@@ -156,7 +156,7 @@ abbr {
         ul {
             list-style: none;
             li {
-                @media all and (min-width: $breakpoint-min) {
+                @media all and (min-width: $breakpoint-smaller-min) {
                     @include remify('margin-left', -6px);
                 }
                 @include remify('padding-left', 38px);
