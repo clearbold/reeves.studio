@@ -214,8 +214,7 @@ abbr {
             @include remify('padding-top', 34px);
             @include remify('padding-right', 20px);
             @include remify('padding-bottom', 36px);
-            @include remify('padding-left', 90px);
-            transform: translateX(-6%);
+            @include remify('padding-left', 20px);
             .content-well {
                 @include remify('max-width', 700px);
                 width: 100%;
@@ -226,6 +225,11 @@ abbr {
                     flex-grow: 1;
                 }
             }
+        }
+    }
+    @media all and (min-width: 1110px) {
+        .content-mark {
+            transform: translateX(-85px);
         }
     }
     @media all and (min-width: $breakpoint-bigger) {
