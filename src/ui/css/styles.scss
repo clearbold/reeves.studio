@@ -29,7 +29,6 @@ body {
     }
 
     background-color: rgb(220, 220, 220);
-    // color: rgb(255, 255, 255);
     color: rgb(18, 46, 67);
     font-family: regular, sans-serif;
     line-height: 1.75em;
@@ -81,8 +80,6 @@ abbr {
     }
 }
 .inner {
-    // background-color: rgb(18, 46, 67);
-    // background-color: rgb(238, 246, 252);
     background-color: white;
     flex-grow: 1;
     .img-mark {
@@ -125,17 +122,11 @@ abbr {
                     font-weight: normal;
                     @include remify('margin-bottom', 20px);
                 }
-                // & > p:first-of-type {
-                //     font-family: semibold, sans-serif;
-                //     @include remify('font-size', 20px);
-                // }
             }
             p:not(:first-of-type) {
                 @include remify('margin-top', 20px);
             }
             a {
-                // color: rgb(245, 226, 142);
-                // color: #d95e1f;
                 color: rgb(194, 70, 0);
             }
             footer {
@@ -270,7 +261,19 @@ footer {
                         @include remify('margin-right', 4px);
                         position: relative;
                         top: 1px;
+                        transition: .1s all;
                         @include remify('width', 16px);
+                        path {
+                            fill: rgb(18, 46, 67);
+                        }
+                    }
+                    &:hover {
+                        svg {
+                            transform: scale(1.125);
+                            path {
+                                fill: rgb(18, 46, 67);
+                            }
+                        }
                     }
                 }
                 &.heymarkreeves {
@@ -279,6 +282,14 @@ footer {
                             transform: translateX(1px);
                             @include remify('margin-right', 5px);
                             @include remify('width', 13.621621622px);
+                            path {
+                                fill: rgb(18, 46, 67);
+                            }
+                        }
+                        &:hover {
+                            svg {
+                                transform: translateX(1px) scale(1.125);
+                            }
                         }
                     }
                 }
