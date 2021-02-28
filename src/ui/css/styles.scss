@@ -330,3 +330,66 @@ footer {
         }
     }
 }
+
+.content-mark {
+    overflow-x: hidden;
+}
+.utility-first-diagram {
+    background-color: rgb(18, 46, 67);
+    clip-path: polygon(50% 0, 99% 100%, 1% 100%);
+    @include remify('margin-top', 60px);
+    ol {
+        background-color: rgb(18, 46, 67);
+        clip-path: polygon(50% 2%, 98% 100%, 2% 100%);
+        display: flex;
+        flex-direction: column-reverse;
+        list-style: none;
+        @include remify('padding-top', 50px);
+        width: 100%;
+        li {
+            display: flex;
+            align-items: center;
+            @include remify('height', 80px);
+            justify-content: center;
+            &:nth-of-type(2n-1) {
+                background-color: rgb(18, 46, 67);
+                color: white;
+            }
+            &:nth-of-type(2n) {
+                background-color: white;
+            }
+        }
+    }
+    @media all and (max-width: 599px) {
+        margin-right: -40%;
+        margin-left: -40%;
+        width: 180%;
+        ol {
+            li {
+                @include remify('font-size', 14px);
+            }
+        }
+    }
+    @media all and (min-width: $breakpoint-smaller-min) {
+        margin-right: -15%;
+        margin-left: -15%;
+        width: 130%;
+        ol {
+            li {
+                @include remify('font-size', 14px);
+            }
+        }
+    }
+    @media all and (min-width: $breakpoint-min) {
+        margin-right: 0;
+        margin-left: 0;
+        width: 100%;
+    }
+    @media all and (min-width: $breakpoint-bigger) {
+        ol {
+            li {
+                @include remify('font-size', 16px);
+            }
+        }
+    }
+}
