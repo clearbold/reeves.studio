@@ -206,7 +206,7 @@ abbr {
             @include remify('padding-right', 20px);
             @include remify('padding-bottom', 36px);
             @include remify('padding-left', 20px);
-            transition: .5s all; // viewport resize
+            // transition: .5s all; // viewport resize
             .content-well {
                 @include remify('max-width', 700px);
                 width: 100%;
