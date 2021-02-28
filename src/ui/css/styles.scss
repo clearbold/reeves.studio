@@ -308,7 +308,7 @@ footer {
                         content: '•';
                         display: inline-flex;
                         justify-content: center;
-                        margin-right: 3px;
+                        margin-right: 2px;
                         width: 16px;
                     }
                 }
@@ -319,6 +319,9 @@ footer {
                     margin-bottom: 0;
                     li {
                         display: inline-flex;
+                        &::before {
+                            margin-right: 0;
+                        }
                         &:first-of-type {
                             &::before {
                                 content: none;
