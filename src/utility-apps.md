@@ -10,7 +10,7 @@ Mark has worked on, or is interested in working&nbsp;on:
 <div class="app-projects">
 
 * <abbr title="content management system">CMS</abbr> plugins
-* <abbr title="application programming interface">API</abbr> & <abbr title="customer relationship management">CRM</abbr> integrations
+* <abbr title="application programming interface">API</abbr> & <abbr title="customer relationship management">CRM</abbr> integrations (including&nbsp;Salesforce)
 * Creating <abbr title="application programming interfaces">APIs</abbr> for legacy databases
 * Data input <abbr title="user interfaces">UIs</abbr> & capture tools
 * Data output & visualization
