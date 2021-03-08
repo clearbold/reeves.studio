@@ -17,5 +17,6 @@ Mark has worked on, or is interested in working&nbsp;on:
 * Email interceptors & parsers
 * Working web app prototypes
 * AirTable apps
+* Build, deploy, and DevOps tooling
 
 </div>
