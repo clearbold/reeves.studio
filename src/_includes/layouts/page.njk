@@ -1,5 +1,5 @@
 {% extends './layout.njk' %}
 {% block page %}
-                            <h1>{{ title }}</h1>
+                            <h1>{{ h1|safe if h1|length > 0 else title }}</h1>
                             {{ content|safe }}
 {% endblock page %}
